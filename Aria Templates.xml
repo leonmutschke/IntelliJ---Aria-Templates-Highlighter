@@ -1,0 +1,22 @@
+<filetype binary="false" description="Aria Templates template files" name="Aria Templates">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="//" />
+      <option name="COMMENT_START" value="/*" />
+      <option name="COMMENT_END" value="*/" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+      <option name="HAS_BRACES" value="true" />
+      <option name="HAS_BRACKETS" value="true" />
+    </options>
+    <keywords keywords="/};{;{/CDATA};{/CSSLibrary};{/CSSTemplate};{/Library};{/Template};{/foreach};{/if};{/macro};{/repeater};{/separator};{CDATA;{CSSLibrary;{CSSTemplate;{Library;{Template;{else;{else /};{else/};{elseif;{foreach;{if;{macro;{repeater;{separator;}" ignore_case="false" />
+    <keywords2 keywords="$;$classpath;$css;$csslibs;$dependencies;$extends;$hasScript;$macrolibs;$res;$texts;args;bind;bindRefreshTo;contentMacro;data;macro;moduleCtrl;scope;this;this.data;this.moduleCtrl" />
+    <keywords3 keywords="&lt;;&gt;&ge;&le;" />
+    <keywords4 keywords="{/@aria;{/@html;{@aria;{@html" />
+  </highlighting>
+  <extensionMap>
+    <mapping ext="cml" />
+    <mapping ext="tpl" />
+    <mapping ext="tml" />
+  </extensionMap>
+</filetype>
