@@ -1,4 +1,4 @@
-<filetype binary="false" description="Aria Templates template files" name="Aria Templates">
+<filetype binary="false" description="Aria Templates template files syntax highlighter" name="Aria Templates">
   <highlighting>
     <options>
       <option name="LINE_COMMENT" value="//" />
@@ -11,12 +11,12 @@
     </options>
     <keywords keywords="/};{;{/CDATA};{/CSSLibrary};{/CSSTemplate};{/Library};{/Template};{/foreach};{/if};{/macro};{/repeater};{/separator};{CDATA;{CSSLibrary;{CSSTemplate;{Library;{Template;{else;{else /};{else/};{elseif;{foreach;{if;{macro;{repeater;{separator;}" ignore_case="false" />
     <keywords2 keywords="$;$classpath;$css;$csslibs;$dependencies;$extends;$hasScript;$macrolibs;$res;$texts;args;bind;bindRefreshTo;contentMacro;data;macro;moduleCtrl;scope;this;this.data;this.moduleCtrl" />
-    <keywords3 keywords="&lt;;&gt;&ge;&le;" />
+    <keywords3 keywords="&lt;;&lt;=;=;&gt;;&gt;=" />
     <keywords4 keywords="{/@aria;{/@html;{@aria;{@html" />
   </highlighting>
   <extensionMap>
-    <mapping ext="cml" />
     <mapping ext="tpl" />
     <mapping ext="tml" />
+    <mapping ext="cml" />
   </extensionMap>
 </filetype>
